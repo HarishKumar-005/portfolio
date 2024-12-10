@@ -242,8 +242,8 @@
   .aboutme-section .group .person-details img {
     width: 200px;
     aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 50%;
+    object-fit:cover;
+    border-radius: 500%;
     margin-bottom: 10px;
   }
   
@@ -252,7 +252,10 @@
     font-size: 19px;
   }
   
- 
+  .testimony-section .group .person-details p:last-child {
+    font-weight: normal;
+  }
+  
   
   .aboutme-section .group .text {
     flex: 8;
